@@ -1,0 +1,12 @@
+funcioñn.
+counter = 1
+counter < 10
+IMPAR counter.
+string = 'holamundo'
+float = 10.13E+2
+MIENTRAS ( counter < 100 ):
+'1a23asd123asd' CUANDO.SUBIR
+10*counter+10.3+counter
+
+
+
