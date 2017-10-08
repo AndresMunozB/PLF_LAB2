@@ -782,37 +782,37 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 YY_RULE_SETUP
 #line 21 "lexico.i"
-{fprintf(yyout,"operador: %s\n",yytext);}
+{fprintf(yyout,"%s\n",yytext);}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
 #line 22 "lexico.i"
-{fprintf(yyout,"puntuacion: %s\n",yytext);}
+{fprintf(yyout,"%s\n",yytext);}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
 #line 23 "lexico.i"
-{fprintf(yyout,"PALABRA_CLAVE : %s\n",yytext);}
+{fprintf(yyout,"%s\n",yytext);}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
 #line 24 "lexico.i"
-{fprintf(yyout,"IDENTIFICADOR : %s\n",yytext);}
+{fprintf(yyout,"IDENTIFICADOR\n");}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
 #line 25 "lexico.i"
-{fprintf(yyout,"NUMERO_ENTERO : %s\n",yytext);}
+{fprintf(yyout,"NUMERO_ENTERO\n");}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
 #line 26 "lexico.i"
-{fprintf(yyout,"NUMERO_REAL : %s\n",yytext);}
+{fprintf(yyout,"NUMERO_REAL\n");}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
 #line 27 "lexico.i"
-{fprintf(yyout,"STRING : %s\n",yytext);}
+{fprintf(yyout,"STRING\n");}
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
 #line 28 "lexico.i"
@@ -821,7 +821,7 @@ case YY_STATE_EOF(INITIAL):
 case 8:
 YY_RULE_SETUP
 #line 29 "lexico.i"
-{printf("basura: (%s)\n",yytext);}
+{/*printf("basura: (%s)\n",yytext);*/}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP

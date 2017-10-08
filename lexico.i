@@ -18,15 +18,15 @@ basura [^{nobasura}]
 
 
 %%
-{operador} {fprintf(yyout,"operador: %s\n",yytext);}
-{puntuacion} {fprintf(yyout,"puntuacion: %s\n",yytext);}
-{palabra_reservada} {fprintf(yyout,"PALABRA_CLAVE : %s\n",yytext);}
-{identificador} {fprintf(yyout,"IDENTIFICADOR : %s\n",yytext);}
-{numero_entero}   {fprintf(yyout,"NUMERO_ENTERO : %s\n",yytext);}
-{numero_real} {fprintf(yyout,"NUMERO_REAL : %s\n",yytext);}
-{string} {fprintf(yyout,"STRING : %s\n",yytext);}
+{operador} {fprintf(yyout,"%s\n",yytext);}
+{puntuacion} {fprintf(yyout,"%s\n",yytext);}
+{palabra_reservada} {fprintf(yyout,"%s\n",yytext);}
+{identificador} {fprintf(yyout,"IDENTIFICADOR\n");}
+{numero_entero} {fprintf(yyout,"NUMERO_ENTERO\n");}
+{numero_real} {fprintf(yyout,"NUMERO_REAL\n");}
+{string} {fprintf(yyout,"STRING\n");}
 <<EOF>> {yyterminate();}
-{basura} {printf("basura: (%s)\n",yytext);}
+{basura} {/*printf("basura: (%s)\n",yytext);*/}
 %%
 int main(){
     yyin = fopen("Bravo.txt","r");
