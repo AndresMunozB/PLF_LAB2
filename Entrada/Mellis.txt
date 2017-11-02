@@ -1,0 +1,7 @@
+hola1234.5678'diego' ABSorber(,): CUANDOREPITAONOLOGICO
+:25E+10 INICIOimparY'plf''asdf
+LEER HASTA contador IMPAR Y SUBIR SI i > 0.1
+...(FALSO si 10.000 HACER VAR cincuenta
+'''''''hola''adios' 
+SI j < 2.5E-234 ENTONCES HACER (i+1)
+SEA esto REPITA 5 veces NOHACERFALSOESCRIBir           

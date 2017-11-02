@@ -1,0 +1,5 @@
+h12ha 2.334 LEER'hoOla1341'
+SI i < 2, ENTONCES 'REPITA jh2
+3247:'hola'
+521.2E+2 == ENTERO logico LOGICO
+5, 5.2+2, 678.3E++digito12

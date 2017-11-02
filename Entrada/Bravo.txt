@@ -1,8 +1,8 @@
-funcioñn.
+funcion.
 counter = 1
 counter < 10
 IMPAR counter.
-string = 'holamundo'
+string = 'holamu"ndo'
 float = 10.13E+2
 MIENTRAS ( counter < 100 ):
 '1a23asd123asd' CUANDO.SUBIR

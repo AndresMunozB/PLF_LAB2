@@ -1,0 +1,17 @@
+PROGRAMA PRUEBA;
+
+ENTERO varA;
+ENTERO varB;
+
+varA = 5.5;
+varB = 10;
+
+MIENTRAS varA <= varB HACER 
+	varA = varA + 1;
+
+SI varA <= 20 ENTONCES
+	varA = 20;
+SINO 
+	varA = 0;
+
+.
